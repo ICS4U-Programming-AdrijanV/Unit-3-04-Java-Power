@@ -62,7 +62,7 @@ public final class RecPow {
 
         } catch (final FileNotFoundException fnfex) {
             // Display error message.
-            System.out.println("Error: " + fnfex.getMessage());
+            System.out.println("Error: " + e.getMessage());
         }
     }
 
@@ -71,7 +71,7 @@ public final class RecPow {
      *
      * @param base base
      * @param exp exponent
-     * @return base raised to the exp
+     * @return base raised to th exp
      */
     public static int power(final int base, final int exp) {
 
